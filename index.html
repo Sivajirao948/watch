@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="clock" onload="currentTime()" class="d-flex flex-column flex-1 align-items-center justify-content-center">
+    <div class="watch-container d-flex align-items-center justify-content-center">
+        <div class="watch">
+            <div class="pointers h-100 w-100 d-flex align-items-center justify-content-center">
+                
+                <div class="pointer-container seconds">
+                    <div class="dot d-flex justify-content-center">
+                        <div class="pointer seconds"></div>
+                    </div>
+                </div>
+                <div class="pointer-container minutes">
+                    <div class="dot d-flex justify-content-center">
+                        <div class="pointer minutes"></div>
+                    </div>
+                </div>
+                <div class="pointer-container hours">
+                    <div class="dot d-flex justify-content-center">
+                        <div class="pointer hours"></div>
+                    </div>
+                </div>
+                <div class="watch-name">
+                    <h6>Sivaji</h6>
+                </div>
+            </div>
+            <div class="numbers h-100 d-flex flex-column justify-content-between">
+                <div class="top d-flex justify-content-center"></div>
+                <div class="middle d-flex justify-content-between"></div>
+                <div class="bottom d-flex justify-content-center"></div>
+            </div>
+        </div>
+        <div class="belt"></div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
